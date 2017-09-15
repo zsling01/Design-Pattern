@@ -72,15 +72,41 @@
                                     <action selector="modeBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fYT-4h-5go"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beb-ez-PZu">
+                                <rect key="frame" x="15" y="410" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.027450980390000001" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="适配器模式">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="modeBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bep-1d-tTY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh4-fQ-8o9">
+                                <rect key="frame" x="15" y="480" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.027450980390000001" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="模版模式">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="modeBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="olR-RN-xO7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="scL-NX-hxv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="1Uw-Nd-eth"/>
                             <constraint firstItem="tHo-Gg-XBB" firstAttribute="top" secondItem="hsU-JH-Cwd" secondAttribute="bottom" constant="30" id="4Tg-lb-Dgm"/>
+                            <constraint firstItem="beb-ez-PZu" firstAttribute="top" secondItem="92e-DD-aD7" secondAttribute="bottom" constant="30" id="7B5-V0-sUo"/>
+                            <constraint firstItem="Wh4-fQ-8o9" firstAttribute="top" secondItem="beb-ez-PZu" secondAttribute="bottom" constant="30" id="7uF-Sv-tXS"/>
+                            <constraint firstItem="beb-ez-PZu" firstAttribute="height" secondItem="92e-DD-aD7" secondAttribute="height" id="Bem-jI-pxm"/>
                             <constraint firstItem="aMK-C5-EK9" firstAttribute="top" secondItem="scL-NX-hxv" secondAttribute="bottom" constant="30" id="HLu-qI-3EC"/>
                             <constraint firstItem="aMK-C5-EK9" firstAttribute="leading" secondItem="scL-NX-hxv" secondAttribute="leading" id="IdE-Au-TXC"/>
+                            <constraint firstItem="beb-ez-PZu" firstAttribute="leading" secondItem="92e-DD-aD7" secondAttribute="leading" id="IgJ-MF-WqV"/>
                             <constraint firstItem="aMK-C5-EK9" firstAttribute="height" secondItem="scL-NX-hxv" secondAttribute="height" id="JSv-3b-zCA"/>
                             <constraint firstItem="pR8-fP-a34" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KGw-XK-5q3"/>
+                            <constraint firstItem="Wh4-fQ-8o9" firstAttribute="height" secondItem="beb-ez-PZu" secondAttribute="height" id="KSo-yM-RmW"/>
+                            <constraint firstItem="Wh4-fQ-8o9" firstAttribute="width" secondItem="beb-ez-PZu" secondAttribute="width" id="Mpq-qc-Mmo"/>
                             <constraint firstItem="hsU-JH-Cwd" firstAttribute="top" secondItem="aMK-C5-EK9" secondAttribute="bottom" constant="30" id="PUL-sD-pnV"/>
                             <constraint firstItem="hsU-JH-Cwd" firstAttribute="height" secondItem="aMK-C5-EK9" secondAttribute="height" id="QLQ-RO-Wie"/>
                             <constraint firstItem="tHo-Gg-XBB" firstAttribute="width" secondItem="hsU-JH-Cwd" secondAttribute="width" id="QVc-ld-iOS"/>
@@ -89,6 +115,8 @@
                             <constraint firstItem="92e-DD-aD7" firstAttribute="height" secondItem="tHo-Gg-XBB" secondAttribute="height" id="dd5-ib-lac"/>
                             <constraint firstItem="92e-DD-aD7" firstAttribute="top" secondItem="tHo-Gg-XBB" secondAttribute="bottom" constant="30" id="e80-cA-18p"/>
                             <constraint firstItem="pR8-fP-a34" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fxb-xF-Rl1"/>
+                            <constraint firstItem="beb-ez-PZu" firstAttribute="width" secondItem="92e-DD-aD7" secondAttribute="width" id="gEu-KA-uFa"/>
+                            <constraint firstItem="Wh4-fQ-8o9" firstAttribute="leading" secondItem="beb-ez-PZu" secondAttribute="leading" id="j2E-aR-4r4"/>
                             <constraint firstItem="92e-DD-aD7" firstAttribute="width" secondItem="tHo-Gg-XBB" secondAttribute="width" id="lGn-dA-GEm"/>
                             <constraint firstItem="92e-DD-aD7" firstAttribute="leading" secondItem="tHo-Gg-XBB" secondAttribute="leading" id="nP0-mZ-oIg"/>
                             <constraint firstItem="hsU-JH-Cwd" firstAttribute="leading" secondItem="aMK-C5-EK9" secondAttribute="leading" id="rLm-Mg-vRN"/>

@@ -26,6 +26,13 @@
 		AF228CB21F6B7A7500998639 /* StrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = AF228CB11F6B7A7500998639 /* StrategyA.m */; };
 		AF228CB51F6B7A7D00998639 /* StrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = AF228CB41F6B7A7D00998639 /* StrategyB.m */; };
 		AF228CB81F6B7AFA00998639 /* SalesMan.m in Sources */ = {isa = PBXBuildFile; fileRef = AF228CB71F6B7AFA00998639 /* SalesMan.m */; };
+		AFA667851F6C0CFB000467DB /* Adaptee.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA667841F6C0CFB000467DB /* Adaptee.m */; };
+		AFA667881F6C0D4F000467DB /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA667871F6C0D4F000467DB /* Adapter.m */; };
+		AFA6678B1F6C0FC2000467DB /* ImportedMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA6678A1F6C0FC2000467DB /* ImportedMachine.m */; };
+		AFA667901F6C1416000467DB /* ObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA6678F1F6C1416000467DB /* ObjectAdapter.m */; };
+		AFA667941F6C2045000467DB /* TemplateAbstrate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA667931F6C2045000467DB /* TemplateAbstrate.m */; };
+		AFA667971F6C219A000467DB /* CookBaoCai.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA667961F6C219A000467DB /* CookBaoCai.m */; };
+		AFA6679A1F6C21A4000467DB /* CookCaiXin.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA667991F6C21A4000467DB /* CookCaiXin.m */; };
 		AFD43C651F6B55B5000EFE81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD43C641F6B55B5000EFE81 /* main.m */; };
 		AFD43C681F6B55B5000EFE81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD43C671F6B55B5000EFE81 /* AppDelegate.m */; };
 		AFD43C6B1F6B55B5000EFE81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD43C6A1F6B55B5000EFE81 /* ViewController.m */; };
@@ -77,6 +84,20 @@
 		AF228CB41F6B7A7D00998639 /* StrategyB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyB.m; sourceTree = "<group>"; };
 		AF228CB61F6B7AFA00998639 /* SalesMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesMan.h; sourceTree = "<group>"; };
 		AF228CB71F6B7AFA00998639 /* SalesMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesMan.m; sourceTree = "<group>"; };
+		AFA667831F6C0CFB000467DB /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adaptee.h; sourceTree = "<group>"; };
+		AFA667841F6C0CFB000467DB /* Adaptee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adaptee.m; sourceTree = "<group>"; };
+		AFA667861F6C0D4F000467DB /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		AFA667871F6C0D4F000467DB /* Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		AFA667891F6C0FC2000467DB /* ImportedMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportedMachine.h; sourceTree = "<group>"; };
+		AFA6678A1F6C0FC2000467DB /* ImportedMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportedMachine.m; sourceTree = "<group>"; };
+		AFA6678E1F6C1416000467DB /* ObjectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectAdapter.h; sourceTree = "<group>"; };
+		AFA6678F1F6C1416000467DB /* ObjectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectAdapter.m; sourceTree = "<group>"; };
+		AFA667921F6C2045000467DB /* TemplateAbstrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateAbstrate.h; sourceTree = "<group>"; };
+		AFA667931F6C2045000467DB /* TemplateAbstrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateAbstrate.m; sourceTree = "<group>"; };
+		AFA667951F6C219A000467DB /* CookBaoCai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookBaoCai.h; sourceTree = "<group>"; };
+		AFA667961F6C219A000467DB /* CookBaoCai.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookBaoCai.m; sourceTree = "<group>"; };
+		AFA667981F6C21A4000467DB /* CookCaiXin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookCaiXin.h; sourceTree = "<group>"; };
+		AFA667991F6C21A4000467DB /* CookCaiXin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookCaiXin.m; sourceTree = "<group>"; };
 		AFD43C601F6B55B5000EFE81 /* 设计模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设计模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD43C641F6B55B5000EFE81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFD43C661F6B55B5000EFE81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,7 +150,7 @@
 			name = Product;
 			sourceTree = "<group>";
 		};
-		AF228CAC1F6B79F800998639 /* StrategyPattern */ = {
+		AF228CAC1F6B79F800998639 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
 				AF228CB61F6B7AFA00998639 /* SalesMan.h */,
@@ -141,7 +162,54 @@
 				AF228CB31F6B7A7D00998639 /* StrategyB.h */,
 				AF228CB41F6B7A7D00998639 /* StrategyB.m */,
 			);
+			name = "策略模式";
 			path = StrategyPattern;
+			sourceTree = "<group>";
+		};
+		AFA6677F1F6C0CA3000467DB /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AFA6678D1F6C13C3000467DB /* 对象适配器 */,
+				AFA6678C1F6C1398000467DB /* 类适配器 */,
+			);
+			name = "适配器模式";
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		AFA6678C1F6C1398000467DB /* 类适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				AFA667831F6C0CFB000467DB /* Adaptee.h */,
+				AFA667841F6C0CFB000467DB /* Adaptee.m */,
+				AFA667861F6C0D4F000467DB /* Adapter.h */,
+				AFA667871F6C0D4F000467DB /* Adapter.m */,
+				AFA667891F6C0FC2000467DB /* ImportedMachine.h */,
+				AFA6678A1F6C0FC2000467DB /* ImportedMachine.m */,
+			);
+			name = "类适配器";
+			sourceTree = "<group>";
+		};
+		AFA6678D1F6C13C3000467DB /* 对象适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				AFA6678E1F6C1416000467DB /* ObjectAdapter.h */,
+				AFA6678F1F6C1416000467DB /* ObjectAdapter.m */,
+			);
+			name = "对象适配器";
+			sourceTree = "<group>";
+		};
+		AFA667911F6C1FB7000467DB /* 模板模式 */ = {
+			isa = PBXGroup;
+			children = (
+				AFA667921F6C2045000467DB /* TemplateAbstrate.h */,
+				AFA667931F6C2045000467DB /* TemplateAbstrate.m */,
+				AFA667951F6C219A000467DB /* CookBaoCai.h */,
+				AFA667961F6C219A000467DB /* CookBaoCai.m */,
+				AFA667981F6C21A4000467DB /* CookCaiXin.h */,
+				AFA667991F6C21A4000467DB /* CookCaiXin.m */,
+			);
+			name = "模板模式";
+			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
 		AFD43C571F6B55B5000EFE81 = {
@@ -188,24 +256,27 @@
 		AFD43C8C1F6B56BA000EFE81 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AF228CAC1F6B79F800998639 /* StrategyPattern */,
-				AFD43C8D1F6B56BA000EFE81 /* FactoryMode */,
-				AFD43C991F6B56BA000EFE81 /* SingletonMode */,
+				AFD43C991F6B56BA000EFE81 /* 单例模式 */,
+				AFD43C8D1F6B56BA000EFE81 /* 工厂模式 */,
+				AF228CAC1F6B79F800998639 /* 策略模式 */,
+				AFA6677F1F6C0CA3000467DB /* 适配器模式 */,
+				AFA667911F6C1FB7000467DB /* 模板模式 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		AFD43C8D1F6B56BA000EFE81 /* FactoryMode */ = {
+		AFD43C8D1F6B56BA000EFE81 /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				AFD43C8E1F6B56BA000EFE81 /* AbstractFactory */,
-				AFD43C8F1F6B56BA000EFE81 /* FactoryMethod */,
-				AFD43C901F6B56BA000EFE81 /* SimpleFactory */,
+				AFD43C901F6B56BA000EFE81 /* 简单工厂模式 */,
+				AFD43C8F1F6B56BA000EFE81 /* 工厂方法模式 */,
+				AFD43C8E1F6B56BA000EFE81 /* 抽象工厂模式 */,
 			);
+			name = "工厂模式";
 			path = FactoryMode;
 			sourceTree = "<group>";
 		};
-		AFD43C8E1F6B56BA000EFE81 /* AbstractFactory */ = {
+		AFD43C8E1F6B56BA000EFE81 /* 抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
 				AF228C7E1F6B654200998639 /* AbstractFactory.h */,
@@ -216,10 +287,11 @@
 				AF228C951F6B66C000998639 /* AbstractFactoryB.m */,
 				AF228C931F6B66A300998639 /* Product */,
 			);
+			name = "抽象工厂模式";
 			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
-		AFD43C8F1F6B56BA000EFE81 /* FactoryMethod */ = {
+		AFD43C8F1F6B56BA000EFE81 /* 工厂方法模式 */ = {
 			isa = PBXGroup;
 			children = (
 				AF228C7B1F6B5D0400998639 /* MethodFactory.h */,
@@ -229,10 +301,11 @@
 				AF228C781F6B5C5000998639 /* FactoryB.h */,
 				AF228C791F6B5C5000998639 /* FactoryB.m */,
 			);
+			name = "工厂方法模式";
 			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
-		AFD43C901F6B56BA000EFE81 /* SimpleFactory */ = {
+		AFD43C901F6B56BA000EFE81 /* 简单工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
 				AFD43C971F6B56BA000EFE81 /* SampleFactory.h */,
@@ -244,10 +317,11 @@
 				AFD43C951F6B56BA000EFE81 /* ProductB.h */,
 				AFD43C961F6B56BA000EFE81 /* ProductB.m */,
 			);
+			name = "简单工厂模式";
 			path = SimpleFactory;
 			sourceTree = "<group>";
 		};
-		AFD43C991F6B56BA000EFE81 /* SingletonMode */ = {
+		AFD43C991F6B56BA000EFE81 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
 				AF228CA61F6B6EC700998639 /* StoreHouse.h */,
@@ -255,6 +329,7 @@
 				AF228CA91F6B6ECF00998639 /* Carrier.h */,
 				AF228CAA1F6B6ECF00998639 /* Carrier.m */,
 			);
+			name = "单例模式";
 			path = SingletonMode;
 			sourceTree = "<group>";
 		};
@@ -340,16 +415,23 @@
 				AF228C961F6B66C000998639 /* AbstractFactoryB.m in Sources */,
 				AF228CB51F6B7A7D00998639 /* StrategyB.m in Sources */,
 				AF228C801F6B654200998639 /* AbstractFactory.m in Sources */,
+				AFA6678B1F6C0FC2000467DB /* ImportedMachine.m in Sources */,
 				AF228CA81F6B6EC700998639 /* StoreHouse.m in Sources */,
+				AFA667851F6C0CFB000467DB /* Adaptee.m in Sources */,
+				AFA6679A1F6C21A4000467DB /* CookCaiXin.m in Sources */,
 				AF228C921F6B669C00998639 /* AbstractFactoryA.m in Sources */,
 				AFD43C9A1F6B56BA000EFE81 /* Product.m in Sources */,
 				AF228C991F6B680C00998639 /* ContainProductB.m in Sources */,
+				AFA667941F6C2045000467DB /* TemplateAbstrate.m in Sources */,
+				AFA667971F6C219A000467DB /* CookBaoCai.m in Sources */,
 				AF228CB81F6B7AFA00998639 /* SalesMan.m in Sources */,
 				AF228C7D1F6B5D0400998639 /* MethodFactory.m in Sources */,
 				AF228C831F6B655D00998639 /* AbstractProduct.m in Sources */,
+				AFA667881F6C0D4F000467DB /* Adapter.m in Sources */,
 				AF228C861F6B65DF00998639 /* ContainerProduct.m in Sources */,
 				AFD43C681F6B55B5000EFE81 /* AppDelegate.m in Sources */,
 				AFD43C9C1F6B56BA000EFE81 /* ProductB.m in Sources */,
+				AFA667901F6C1416000467DB /* ObjectAdapter.m in Sources */,
 				AFD43C9D1F6B56BA000EFE81 /* SampleFactory.m in Sources */,
 				AF228C771F6B5C4700998639 /* FactoryA.m in Sources */,
 				AF228C9C1F6B681D00998639 /* ModeProductB.m in Sources */,

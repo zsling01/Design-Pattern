@@ -21,6 +21,13 @@
 
 #import "SalesMan.h"
 
+#import "ImportedMachine.h"
+#import "Adapter.h"
+#import "ObjectAdapter.h"
+
+#import "CookBaoCai.h"
+#import "CookCaiXin.h"
+
 @interface ViewController ()
 
 @end
@@ -47,6 +54,13 @@
             break;
         case 4:
             [self strategyPattern];
+            break;
+        case 5:
+            //[self classAdapterPattern];
+            [self objectAdapterPattern];
+            break;
+        case 6:
+            [self templatePattern];
             break;
     }
 }
@@ -124,6 +138,35 @@
     // 售货员选择策略A
     [saleMan shooseStrategy:@"A"];
     [saleMan showStrategy];
+}
+
+// 类适配器模式
+- (void)classAdapterPattern {
+    Adapter *adapter = [[Adapter alloc] init];
+    ImportedMachine *machine = [[ImportedMachine alloc] init];
+    [adapter convert_110v];
+    [machine work];
+}
+
+// 对象适配器模式
+- (void)objectAdapterPattern {
+    Adaptee *adaptee = [[Adaptee alloc] init];
+    ObjectAdapter *objectAdapter = [[ObjectAdapter alloc] initWithAdaptee:adaptee];
+    [objectAdapter convert_110v];
+    
+    ImportedMachine *machine = [[ImportedMachine alloc] init];
+    [machine work];
+}
+
+// 模版模式
+- (void)templatePattern {
+    TemplateAbstrate *baocai = [[CookBaoCai alloc] init];
+    [baocai cookProgress];
+    
+    NSLog(@"----------------------");
+    
+    TemplateAbstrate *caixin = [[CookBaoCai alloc] init];
+    [caixin cookProgress];
 }
 
 @end
